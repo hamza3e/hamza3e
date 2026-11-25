@@ -9,9 +9,11 @@ pipeline on TCGA-BLCA: tissue masking, tiling, frozen H-optimus-0 embeddings, an
 TransMIL and simpler models for histological and molecular subtypes. I now lead the team extending it with new cohorts
 and clinical variables.
 
-**Path2Peer** (with Dr Mahmut Akgül, 2026). A second-opinion platform for pathologists. I structured consented case
-discussions into cases, questions and clinical notes on a local machine, built a viewer for review, and started a
-pipeline that suggests likely immunohistochemistry stains for a new case. I also work on the mobile and web apps.
+**Path2Peer** (with Dr Mahmut Akgül, 2026). A second-opinion platform for pathologists. Several LLMs split consented
+case discussions into cases, and I built the tools to check them: one to correct the grouping (case, non-case and
+uncertain labels, a review queue, an audited edit history) and one in which pathologists approved, flagged or corrected
+each extracted case. I also started a pipeline that suggests likely immunohistochemistry stains for a new case, and work
+on the mobile and web apps.
 
 **TNTdetect.AI** ([*Cancers* 2022](https://doi.org/10.3390/cancers14194958), co-first author). U-Net segmentation and
 counting of tunnelling nanotubes in microscopy images, with collaborators at Stanford, the University of Minnesota and
