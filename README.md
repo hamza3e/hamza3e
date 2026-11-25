@@ -22,7 +22,8 @@ MD Anderson. I trained the pathologists on the labelling tool and built the coun
 **Ovarian cancer report agent** ([ovarian-agent-contract](https://github.com/hamza3e/ovarian-agent-contract), Nov 2026,
 in progress). A pathology-report agent on public TCGA-OV reports. A local open-weight model extracts the findings, code
 checks each evidence quote against the report, and a LangGraph step sends a case for review when the report and the
-registry disagree.
+registry disagree. The [study guide](https://hamza3e.github.io/ovarian-agent-contract/study-guide.html) is the clinical
+and ML background I worked through, step by step, while building it.
 
 **Earlier.** PhD on video-based fall detection with skeletal image representations and deformable convolutions
 ([*Image Analysis and Stereology* 2024](https://doi.org/10.5566/ias.3087)). M.Sc. on RF heating in 3 T MRI, with
