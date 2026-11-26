@@ -4,16 +4,17 @@ the model as well. Most of it lives in private repositories of the teams I work 
 
 ### Medical AI
 
-**Bladder cancer whole-slide pipeline** (MedTech Pioneers in Innovation, 2026). I wrote the plan and built the first
-pipeline on TCGA-BLCA: tissue masking, tiling, frozen H-optimus-0 embeddings, and patient-level comparison of ABMIL,
-TransMIL and simpler models for histological and molecular subtypes. I now lead the team extending it with new cohorts
-and clinical variables.
+**Bladder cancer** (MedTech Pioneers in Innovation, with Dr Mahmut Akgül, 2026). The goal is grading support from
+hospital data with post-surgery follow-up. As a first step on TCGA-BLCA, I reviewed recent pathology AI, compared
+pathology foundation models, chose histological and molecular subtyping after studying the data, and built the
+pipeline: tissue masking, patching, foundation-model features, and MIL and simpler models trained and compared on
+them. I now lead the team extending it with new cohorts and clinical variables.
 
-**Path2Peer** (with Dr Mahmut Akgül, 2026). A second-opinion platform for pathologists. Several LLMs split consented
+**Path2Peer** (with Dr Mahmut Akgül, 2026). A platform, in development, where pathologists discuss cases and consult each other. Several LLMs split consented
 case discussions into cases, and I built the tools to check them: one to correct the grouping (case, non-case and
 uncertain labels, a review queue, an audited edit history) and one in which pathologists approved, flagged or corrected
-each extracted case. I also started a pipeline that suggests likely immunohistochemistry stains for a new case, and work
-on the mobile and web apps.
+each extracted case. I also started a pipeline that suggests likely immunohistochemistry stains for a new case, and am
+building its mobile and web apps with the team.
 
 **TNTdetect.AI** ([*Cancers* 2022](https://doi.org/10.3390/cancers14194958), co-first author). U-Net segmentation and
 counting of tunnelling nanotubes in microscopy images, with collaborators at Stanford, the University of Minnesota and
