@@ -18,11 +18,12 @@ models, chose histological and molecular subtyping after studying the data, and 
 patching, foundation-model features, and MIL and simpler models trained and compared on them. I now lead the team
 extending it with new cohorts and clinical variables.
 
-**Path2Peer** (MedTech Pioneers in Innovation, 2026). A case-discussion platform for pathologists led by Dr Mahmut
-Akgül, in development. Several LLMs split consented case discussions into cases, and I built the tools to check them:
-one to correct the grouping (case, non-case and uncertain labels, a review queue, an audited edit history) and one in
-which pathologists approved, flagged or corrected each extracted case. I also started a pipeline that suggests likely
-immunohistochemistry stains for a new case, and am building the platform's mobile and web apps with the team.
+**Path2Peer** (MedTech Pioneers in Innovation, 2026). A consultation and collaboration platform for pathologists, led
+by Dr Mahmut Akgül and in development, where I co-develop the web and mobile apps. To turn consented case discussions
+into structured clinical data, I compared several LLMs, including open-weight models, for splitting the threads into
+cases and extracting structured fields, and built review tools in which pathologists approve, flag or correct each
+extracted case. From these validated cases I started an early pipeline that retrieves similar past discussions with
+image and text embeddings and suggests likely immunohistochemistry stains for a new case.
 
 **TNTdetect.AI** ([*Cancers* 2022](https://doi.org/10.3390/cancers14194958), co-first author). Detection and counting
 of tunnelling nanotubes, thin membrane channels between cancer cells, in microscopy images, with U-Net segmentation. I
