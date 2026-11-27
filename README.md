@@ -18,7 +18,7 @@ building its mobile and web apps with the team.
 
 **TNTdetect.AI** ([*Cancers* 2022](https://doi.org/10.3390/cancers14194958), co-first author). U-Net segmentation and
 counting of tunnelling nanotubes in microscopy images, with collaborators at Stanford, the University of Minnesota and
-MD Anderson. I trained the pathologists on the labelling tool and built the counting pipeline.
+MD Anderson. I trained the University of Minnesota team on the labelling tool and built the counting pipeline.
 
 **Ovarian cancer report agent** ([ovarian-agent-contract](https://github.com/hamza3e/ovarian-agent-contract), Nov 2026,
 in progress). A pathology-report agent on public TCGA-OV reports. A local open-weight model extracts the findings, code
